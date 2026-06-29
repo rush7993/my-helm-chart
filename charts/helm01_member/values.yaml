@@ -1,0 +1,23 @@
+# 템플릿/야믈파일에서 참조하는 변수파일 ex) {{.Values.replicaCount}}
+
+# 파드 개수
+replicaCount: 3
+
+# 애플리케이션 이미지 정보
+image:
+  repository: myoli999/step17-app
+  tag: "1.0"
+  pullPolicy: IfNotPresent
+
+# 서비스 설정
+service:
+  type: ClusterIP
+  port: 8000
+
+# 컨테이너 포트
+containerPort: 8000
+
+# 데이터베이스 환경 변수
+database:
+  writableUrl: "postgresql://scott:tiger@my-pg-cluster-rw:5432/scott_db"
+  readonlyUrl: "postgresql://scott:tiger@my-pg-cluster-ro:5432/scott_db"
