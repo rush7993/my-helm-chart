@@ -3,7 +3,7 @@ entries:
   member-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-06-29T11:07:50.817617441+09:00"
+    created: "2026-06-29T11:40:10.98888125+09:00"
     description: fastapi member application
     digest: 736831c8b94acb282c3fe5099b50c1835db9ed60f97ae9de0be7bcec0199b10b
     name: member-app
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://rush7993.github.io/my-helm-chart/member-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-29T11:07:50.816446737+09:00"
+generated: "2026-06-29T11:40:10.988363431+09:00"
