@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  market-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-07-01T09:49:55.112587578+09:00"
+    description: Market Application Helm Chart for Kubernetes
+    digest: 7422f97bc8efe3189e38b3a3e4e6b8bef353a0143764b778c5afa71b6c92a178
+    name: market-app
+    type: application
+    urls:
+    - https://rush7993.github.io/my-helm-chart/market-app-0.1.0.tgz
+    version: 0.1.0
   member-app:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-06-29T11:42:53.58538685+09:00"
+    created: "2026-07-01T09:49:55.114209643+09:00"
     description: fastapi member application
     digest: dab6d22ffb0c6e6cd574231a2f195f95ba1e1682615fabef9635a06d55e10f80
     name: member-app
@@ -13,7 +24,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-06-29T11:42:53.585246085+09:00"
+    created: "2026-07-01T09:49:55.113771158+09:00"
     description: fastapi member application
     digest: 736831c8b94acb282c3fe5099b50c1835db9ed60f97ae9de0be7bcec0199b10b
     name: member-app
@@ -21,4 +32,4 @@ entries:
     urls:
     - https://rush7993.github.io/my-helm-chart/member-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-29T11:42:53.584972926+09:00"
+generated: "2026-07-01T09:49:55.11234133+09:00"
