@@ -3,5 +3,5 @@ apiVersion: v2
 name: member-app
 description: fastapi member application
 type: application
-version: 0.1.0 # 헬름차트 자체버전
-appVersion: "1.0.0" # 차트로 배포하는 앱버전
+version: 0.1.1 # 헬름차트 자체버전
+appVersion: "1.0.1" # 차트로 배포하는 앱버전

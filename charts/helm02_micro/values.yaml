@@ -1,0 +1,21 @@
+
+replicaCount: 2
+containerPort: 8000
+
+image:
+  repository: myoli999/market-app
+  tag: "1.0"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8000
+  targetPort: 8000
+
+resources:
+  limits:
+    cpu: "200m"
+    memory: "64Mi"
+  requests:
+    cpu: "100m"
+    memory: "32Mi"
